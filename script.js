@@ -9,6 +9,8 @@ function acresentaTarefa(event){
 		//Para acresentar o texto
 		var texto = document.createTextNode(document.getElementById("Criador").value);
 		
+		document.getElementById("Criador").value = "";
+		
 		tarefa.appendChild(texto);
 		
 		//Para acresentar um novo ao corpo o body
@@ -18,5 +20,10 @@ function acresentaTarefa(event){
 		return true;
 	}
 
+}
+
+function deletaTarefa(event){
+
+	
 }
 

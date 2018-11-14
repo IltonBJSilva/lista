@@ -1,17 +1,40 @@
 .NomePrincipal{
 	
     margin: auto;
-    width: 10%;
-    border: 1px solid Darkslategray;
-    padding: 9px;
+    padding: 1px;
 }
 .article{
 	margin: auto;
-	width: 13%;
+	width: 20%;
 	padding: 9px;
 	
 	
 }
-#tarefaID{
-	right: auto;align-self: 
+body{
+	position: relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	top: 100px;
+}
+#TarefaID{
+	margin: auto;
+    width: 40%;
+    border: 1px solid #075656;
+    padding: 9px;
+}
+#Criador{
+	background-color: #ebebeb;
+}
+#Titulo{
+    height: 60px;
+    width: 10%;
+
+}
+#Centro{
+    margin: auto;
+    width: 40%;
+    border: 1px solid Darkslategray;
+    padding: inherit;
+    left: 
 }
