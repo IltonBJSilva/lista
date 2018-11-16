@@ -22,6 +22,9 @@ body{
     width: 40%;
     border: 1px solid #075656;
     padding: 9px;
+	font-size: 12px;
+	font-family: sans-serif;
+	
 }
 #Criador{
 	background-color: #ebebeb;
@@ -38,3 +41,16 @@ body{
     padding: inherit;
     left: 
 }
+#TarefaID:nth-child(odd){
+	background-color: beige;
+}
+#TarefaID:nth-child(even){
+	background-color: antiquewhite;
+}
+
+#TarefaID:hover{
+	background-color: azure;
+}
+
+
+

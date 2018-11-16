@@ -1,5 +1,11 @@
 function acresentaTarefa(event){
-	if(event.which == 13 || event.keycode == 13){
+	
+	var valor = document.getElementById("Criador").value;
+	
+//	if(valor === ""){
+//		alert("Insira um valor");
+//	   } else 
+		if(event.which == 13 || event.keycode == 13  ){
 		
 		//Para acresentar tarefa 
 		var tarefa = document.createElement("div");
@@ -7,7 +13,9 @@ function acresentaTarefa(event){
 		tarefa.id = "TarefaID";
 		
 		//Para acresentar o texto
-		var texto = document.createTextNode(document.getElementById("Criador").value);
+		var texto = document.createTextNode(valor);
+		
+		
 		
 		document.getElementById("Criador").value = "";
 		
