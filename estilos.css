@@ -37,7 +37,7 @@ body{
     width: 40%;
     border: 1px solid ;
     padding: inherit;
-	background-color: cadetblue;
+	background-color: cadetblue;	
 }
 #TarefaID:nth-child(odd){
 	background-color: beige;
@@ -49,6 +49,8 @@ body{
 #TarefaID:hover{
 	background-color: azure;
 }
-
+#TarefaID:hover{
+	back
+}
 
 
