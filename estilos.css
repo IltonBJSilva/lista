@@ -7,8 +7,6 @@
 	margin: auto;
 	width: 20%;
 	padding: 9px;
-	
-	
 }
 body{
 	position: relative;
@@ -37,9 +35,9 @@ body{
 #Centro{
     margin: auto;
     width: 40%;
-    border: 1px solid Darkslategray;
+    border: 1px solid ;
     padding: inherit;
-    left: 
+	background-color: cadetblue;
 }
 #TarefaID:nth-child(odd){
 	background-color: beige;
