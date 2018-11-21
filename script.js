@@ -10,7 +10,7 @@ function acresentaTarefa(event){
 		   alert("Insira um valor");	
 		   }else{
 			//Para acresentar tarefa 
-			var tarefa = document.createElement("div");
+			var tarefa = document.createElement("li");
 
 			//dar uma ID para cada div criada
 			tarefa.id = "TarefaID" + valor;
