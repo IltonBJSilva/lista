@@ -15,13 +15,14 @@ body{
     margin-right: auto;
 	top: 100px;
 }
-#TarefaID{
+li{
 	margin: auto;
     width: 40%;
     border: 1px solid #075656;
     padding: 9px;
 	font-size: 12px;
 	font-family: sans-serif;
+	list-style-type: none;
 	
 }
 #Criador{
@@ -44,18 +45,18 @@ body{
     padding: inherit;
 	background-color: cadetblue;	
 }
-#TarefaID:nth-child(odd){
+li:nth-child(odd){
 	background-color: beige;
 }
-#TarefaID:nth-child(even){
+li:nth-child(even){
 	background-color: antiquewhite;
 }
 
-#TarefaID:hover{
+li > span:hover{
 	background-color: azure;
+	
+	
 }
-#TarefaID:hover{
-	back
-}
+
 
 
