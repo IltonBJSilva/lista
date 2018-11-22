@@ -8,9 +8,17 @@
 	width: 20%;
 	padding: 9px;
 }
-.estilo{
+.ativo{
 	opacity: 0;
-	
+}
+.desativada{
+	opacity: 1;
+
+
+}
+.riscado{
+	text-decoration: line-through;
+	background-color: azure !important;
 }
 
 body{
@@ -25,14 +33,13 @@ li{
     width: 40%;
     border: 1px solid #075656;
     padding: 9px;
-	font-size: 12px;
+	font-size: 20px;
 	font-family: sans-serif;
 	list-style-type: none;
-	
 }
+
 #correto{
 	float: left;
-
 }
 #removedor{
 	float: right;
@@ -63,21 +70,26 @@ li{
 	margin-left:74%;
 	margin 10
 }
+#tarefaLista{
 
+}
 li:nth-child(odd){
-	background-color: beige;
+	background-color: #FF5722;
 }
 li:nth-child(even){
-	background-color: antiquewhite;
+	background-color: #cecece;
 }
 li:hover{
    background-color: azure;
 }
-li:hover > .estilo {
+li:hover > .ativo {
 	background-color: azure;
 	opacity: 1;
 }
 
+#correto:checked{
+	opacity: 1;
+}
 
 
 
