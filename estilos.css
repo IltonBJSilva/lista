@@ -8,6 +8,11 @@
 	width: 20%;
 	padding: 9px;
 }
+.estilo{
+	opacity: 0;
+	
+}
+
 body{
 	position: relative;
 	display: block;
@@ -25,6 +30,15 @@ li{
 	list-style-type: none;
 	
 }
+#correto{
+	float: left;
+
+}
+#removedor{
+	float: right;
+
+}
+
 #Criador{
 	background-color: #ebebeb;
 	width: 200px;
@@ -45,18 +59,26 @@ li{
     padding: inherit;
 	background-color: cadetblue;	
 }
+#removedor{
+	margin-left:74%;
+	margin 10
+}
+
 li:nth-child(odd){
 	background-color: beige;
 }
 li:nth-child(even){
 	background-color: antiquewhite;
 }
-
-li > span:hover{
-	background-color: azure;
-	
-	
+li:hover{
+   background-color: azure;
 }
+li:hover > .estilo {
+	background-color: azure;
+	opacity: 1;
+}
+
+
 
 
 
