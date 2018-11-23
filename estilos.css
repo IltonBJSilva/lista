@@ -22,7 +22,7 @@
 .riscado{
 	text-decoration: line-through;
 	background-color: azure !important;
-	text-decoration-color: darkgreen
+	color: darkgreen
 }
 
 body{
@@ -47,6 +47,7 @@ li{
 }
 #removedor{
 	float: right;
+	background-color: red;
 
 }
 
