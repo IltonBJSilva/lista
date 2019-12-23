@@ -44,6 +44,8 @@ li{
 
 #correto{
 	float: left;
+	padding: 1px;
+	margin 60px
 }
 #removedor{
 	float: right;
