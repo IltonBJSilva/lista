@@ -40,6 +40,7 @@ li{
 	font-size: 20px;
 	font-family: Arial;
 	list-style-type: none;
+	box-shadow: black 2px 2px;
 }
 
 #correto{
@@ -63,11 +64,13 @@ li{
 	text-align: 40px;
 	height: 20px;
 	margin-left: 10%;
+	box-shadow: black 2px 2px;
 
 }
 #Titulo{
     height: 60px;
-    width: 10%;
+	width: 10%;
+	text-shadow: white 2px 2px;
 
 }
 #Centro{
@@ -76,6 +79,8 @@ li{
     border: 1px solid ;
     padding: 15px;
 	background-color: cadetblue;	
+	box-shadow: black 2px 2px;
+	
 }
 #removedor{
 	margin-left:74%;
